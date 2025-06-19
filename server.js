@@ -49,8 +49,9 @@ app.use(express.json());
 app.use(cors({
   origin: [
     "http://localhost:3000",
-    "https://your-frontend-app-name.azurestaticapps.net"
+    "https://victorious-beach-0799c9a10.6.azurestaticapps.net"
   ],
+
   credentials: true
 }));
 
